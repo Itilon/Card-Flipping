@@ -30,7 +30,9 @@ h1 {
 }
 .back {
     transform: rotateY(180deg);
-    background-color: #999999;
+    background: url('./images/seaside.jpeg');
+    background-size: cover;
+    opacity: 0.6;
 }
 .card:hover {
     transform: rotateY(180deg);
